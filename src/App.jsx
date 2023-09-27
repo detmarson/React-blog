@@ -38,7 +38,7 @@ function App() {
 			</nav>
 
 			<Routes>
-				<Route path="/" element={<Home isAuth={isAuth} />} />
+				<Route path="/React-blog/" element={<Home isAuth={isAuth} />} />
 				<Route path="/posts/:id" element={<DetailContent isAuth={isAuth} />} />
 			</Routes>
 			<Footer />
