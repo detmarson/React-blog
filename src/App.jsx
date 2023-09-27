@@ -40,6 +40,7 @@ function App() {
 			<Routes>
 				<Route path="/React-blog/" element={<Home isAuth={isAuth} />} />
 				<Route path="/posts/:id" element={<DetailContent isAuth={isAuth} />} />
+				<Route path="*" element={<PageNotFound />} />
 			</Routes>
 			<Footer />
 		</Router>

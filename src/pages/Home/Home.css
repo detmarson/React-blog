@@ -44,3 +44,39 @@ svg {
 	height: 80%;
 	z-index: 0;
 }
+i {
+	animation: 3s infinite ease-in-out paperPlane;
+}
+@keyframes paperPlane {
+	0%,
+	100% {
+		transform: rotate(0deg);
+	}
+	10% {
+		transform: rotate(10deg);
+	}
+	20% {
+		transform: rotate(-10deg);
+	}
+	30% {
+		transform: rotate(15deg);
+	}
+	40% {
+		transform: rotate(-15deg);
+	}
+	50% {
+		transform: rotate(10deg);
+	}
+	60% {
+		transform: rotate(-10deg);
+	}
+	70% {
+		transform: rotate(5deg);
+	}
+	80% {
+		transform: rotate(-5deg);
+	}
+	90% {
+		transform: rotate(2deg);
+	}
+}
