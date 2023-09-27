@@ -7,6 +7,7 @@ import { signOut } from 'firebase/auth'
 import { auth, provider } from './config/firebase.js'
 import './App.css'
 import { signInWithPopup } from 'firebase/auth'
+import PageNotFound from './pages/PageNotFound/PageNotFound.jsx'
 
 function App() {
 	const [isAuth, setIsAuth] = useState(localStorage.getItem('isAuth'))
