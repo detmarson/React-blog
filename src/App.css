@@ -1,0 +1,82 @@
+.App {
+	text-align: center;
+}
+body {
+	box-sizing: border-box;
+	padding: 0%;
+	margin: 0%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+hr {
+	background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/wave.svg);
+	opacity: 100%;
+	border: none;
+	height: 30px;
+	margin: 0 0 14rem 0;
+}
+nav {
+	font-family: 'Cormorant Garamond', serif;
+	display: flex;
+	justify-content: space-around;
+	margin: 0;
+	width: 100%;
+	height: 80px;
+	background-color: #284177;
+	align-items: center;
+	color: white;
+	text-decoration: none;
+}
+
+nav a {
+	position: relative;
+	text-decoration: none;
+	color: white;
+	font-size: 2rem;
+}
+nav a::before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	border-radius: 4px;
+	background-color: white;
+	bottom: 0;
+	left: 0;
+	transform-origin: right;
+	transform: scaleX(0);
+	transition: transform 0.3s ease-in-out;
+}
+
+nav a:hover::before {
+	transform-origin: left;
+	transform: scaleX(1);
+}
+nav button {
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	font-family: 'Cormorant Garamond', serif;
+	color: white;
+	font-size: 2rem;
+	text-decoration: none;
+	position: relative;
+}
+
+nav button::before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	border-radius: 4px;
+	background-color: white;
+	bottom: 0;
+	left: 0;
+	transform-origin: right;
+	transform: scaleX(0);
+	transition: transform 0.3s ease-in-out;
+}
+
+nav button:hover::before {
+	transform-origin: left;
+	transform: scaleX(1);
+}

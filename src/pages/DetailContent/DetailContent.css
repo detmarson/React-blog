@@ -1,0 +1,25 @@
+.DetailContent {
+	img {
+		height: 80vh;
+		width: 100%;
+		object-fit: cover;
+	}
+}
+.Detail__hr {
+	margin-bottom: 4em;
+	height: 1.7em;
+}
+.Detail__text {
+	margin: 2em;
+}
+.DetailContent__links {
+	display: flex;
+	justify-content: center;
+}
+.DetailContent__links a {
+	margin: 1em;
+	text-decoration: none;
+	color: black;
+	border: 1px solid black;
+	padding: 0.7em;
+}

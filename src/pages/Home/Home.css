@@ -1,0 +1,46 @@
+body {
+	position: relative;
+}
+.header {
+	font-family: 'Abril Fatface', cursive;
+	background-image: url(/home/marcin-detlaf/nauka/blogg/src/assets/header.jpg);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 75vh;
+	width: 100%;
+	text-align: center;
+}
+.header__text {
+	position: absolute;
+	color: #284177;
+	top: 30%;
+	left: 20%;
+}
+.header__text h1 {
+	font-size: 4rem;
+}
+.header__text p {
+	font-size: 1.5rem;
+	text-align: start;
+	margin-left: 0.2em;
+}
+
+.line {
+	background-image: url(../assets/line-dotted.png);
+	height: 100%;
+	width: 100%;
+}
+
+svg {
+	position: absolute;
+	top: 20%;
+	left: -1%;
+	width: 100%;
+	height: 80%;
+	z-index: 0;
+}

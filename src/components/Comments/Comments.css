@@ -1,0 +1,21 @@
+.comment-container {
+	margin: 16px;
+	padding: 16px;
+	border: 1px solid #ddd;
+	background-color: #fff;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.comment-author {
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+
+.comment-text {
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+.comment {
+	margin-bottom: 24px;
+}
