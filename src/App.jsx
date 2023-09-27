@@ -27,7 +27,7 @@ function App() {
 	return (
 		<Router>
 			<nav>
-				<Link to="/">Marcin Detlaf</Link>
+				<Link to="/React-blog/">Marcin Detlaf</Link>
 				{!isAuth ? (
 					<button onClick={signInWithGoogle}> Zaloguj sie</button>
 				) : (
