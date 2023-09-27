@@ -10,4 +10,4 @@ const stripHTML = htmlStr => {
 	return htmlStr.replace(/<\/?[^>]+(>|$)/g, '')
 }
 
-export default { createDescription, stripHTML }
+export { createDescription, stripHTML }

@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import { CCard, CCardBody, CCardImage, CCardText, CCardTitle, CCol } from '@coreui/react'
 import '@coreui/coreui/dist/css/coreui.min.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { createDescription, stripHTML } from '/home/marcin-detlaf/nauka/blogg/src/util/StringUtils.js'
+import { createDescription, stripHTML } from '/src/util/StringUtils.js'
 import './BlogItem.css'
 
 export default function BlogItem({ title, summary, thumbnail, index, id }) {
