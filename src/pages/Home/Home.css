@@ -3,7 +3,7 @@ body {
 }
 .header {
 	font-family: 'Abril Fatface', cursive;
-	background-image: url(/home/marcin-detlaf/nauka/blogg/src/assets/header.jpg);
+	background-image: url(/src/assets/header.jpg);
 	background-size: cover;
 	background-position: center;
 	position: relative;
