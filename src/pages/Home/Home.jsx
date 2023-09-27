@@ -28,12 +28,14 @@ function Home({ isAuth }) {
 				<div className="header__text">
 					<h1>7 dni na Korfu</h1>
 					<p>
+					<a href="#cards">
 						2023 <i className="fa-regular fa-paper-plane"></i>
+					</a>
 					</p>
 				</div>
 			</div>
 			<hr />
-			<CContainer>
+			<CContainer id='cards'>
 				<CRow xs={{ cols: 1 }}>
 					{postLists.map((post, index) => {
 						return (
