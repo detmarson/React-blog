@@ -45,6 +45,7 @@ svg {
 	z-index: 0;
 }
 i {
+	margin-left: 0.1em;
 	animation: 3s infinite ease-in-out paperPlane;
 }
 @keyframes paperPlane {
